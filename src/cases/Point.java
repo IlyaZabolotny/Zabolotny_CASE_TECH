@@ -18,8 +18,12 @@ public class Point {
     public double getY(){
         return y;
     }
-    public void subtract(Point p){
+    public Point subtract(Point p){
         this.x=x-p.getX();
         this.y=y-p.getY();
+        return this;
+    }
+    public double dot(Point p){
+        return p.getX()*x+p.getY()*y;
     }
 }
