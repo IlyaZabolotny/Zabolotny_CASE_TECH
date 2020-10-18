@@ -1,20 +1,15 @@
 package cases;
 
 public class Circle {
-    private double xC;
-    private double yC;
+    private Point center;
     private double radius;
 
-    public Circle(double xC, double yC, double radius){
-        this.xC=xC;
-        this.yC=yC;
+    public Circle(Point center, double radius){
+        this.center=center;
         this.radius=radius;
     }
-    public double getxC(){
-        return xC;
-    }
-    public double getyC(){
-        return yC;
+    public Point getCenter(){
+        return center;
     }
     public double getRadius(){
         return radius;
