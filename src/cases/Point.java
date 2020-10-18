@@ -12,6 +12,10 @@ public class Point {
         this.x=x;
         this.y=y;
     }
+    public Point(Point p){
+        this.x=p.getX();
+        this.y=p.getY();
+    }
     public double getX(){
         return x;
     }
@@ -19,11 +23,9 @@ public class Point {
         return y;
     }
     public Point subtract(Point p){
-        this.x=x-p.getX();
-        this.y=y-p.getY();
-        return this;
+        return new Point(this.x-p.x,this.y-p.y);
     }
     public double dot(Point p){
-        return p.getX()*x+p.getY()*y;
+        return p.x*x+p.y*y;
     }
 }
