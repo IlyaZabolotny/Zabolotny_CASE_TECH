@@ -20,7 +20,7 @@ public class TestMain {
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         RayCircleIntersection gui = new RayCircleIntersection();
         jf.add(gui);
-        jf.setSize(500,500);
+        jf.setSize(1000,1000);
         jf.setVisible(true);
     }
 }
