@@ -1,11 +1,9 @@
 package cases;
 import java.awt.*;
-import java.util.ArrayList;
 import javax.swing.*;
 
 
 public class RayCircleIntersection extends JPanel{
-    private ArrayList<Point> interPoints;
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);
