@@ -83,25 +83,6 @@ public class RayCircleIntersection extends JPanel{
                 A2y--;
                 }
         }
-
-//        int maxX=500;
-//        int minX=100;
-//        int maxY=500;
-//        int minY=100;
-//        for (int i=0; i<10;i++){
-//            int Ax=(int)(Math.random()*((maxX-minX)+1))+minX;
-//            int Ay=(int)(Math.random()*((maxY-minY)+1))+minY;
-//            Point A=new Point(Ax,Ay);
-//            if (intercection.rayCircleInter(O,A,C).getX()!=0 && intercection.rayCircleInter(O,A,C).getY()!=0){
-//                g.fillOval( Ox+(int) intercection.rayCircleInter(O,A,C).getX()-pointSize/2,
-//                        Oy-(int) intercection.rayCircleInter(O,A,C).getY()-pointSize/2,
-//                        pointSize,pointSize);
-//            }
-//        }
-
-
-
-
     }
 
 }
